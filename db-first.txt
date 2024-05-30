@@ -1,0 +1,21 @@
+Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.
+
+
+Nome colonna     	  	 Tipo         		   attributi      		         indici 
+ID					int				AUTO_INCREMENT		PRIMARY KEY
+TARGA				VARCHAR(7)		UNIQUE, NOT NULL
+MARCA				VARCHAR(30)	NOT NULL	
+COLORE 			VARCHAR(20)	NOT NULL	
+ANNO				DATE			NOT NULL
+PREZZO				DOUBLE(6,2)		NOT NULL
+CARBURANTE		VARCHAR(10)	NOT NULL
+CAMBIO 			VARCHAR(15)	NOT NULL
+CHILOMETRAGGIO	INT				NULL
+POTENZA			DOUBLE (5,3)	NOT NULL
+NUOVA				TINYINT			NOT NULL
+PORTE 				INT				NOT NULL	
+TRAZIONE 			VARCHAR(5)		NULL	
+POSTI				INT 				NOT NULL
+MARCE 				INT 				NULL
+PROPETARI			INT				NULL
+CARROZZERIA		VARCHAR(20)	NOT NULL
